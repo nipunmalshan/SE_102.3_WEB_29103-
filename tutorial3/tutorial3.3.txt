@@ -1,0 +1,112 @@
+<html>
+<head>
+
+	<style>
+	
+		td{
+			text-align:center;
+		}
+		
+		.sec1{
+			background-color:white;
+		}
+		.sec2{
+			background-color:blue;
+			color:red;
+		}
+		.sec3{
+			background-color:green;
+		}
+		
+	.sec4{
+			background-color:grey;
+			width:550px;
+		}
+		
+		h1{
+			color:white;
+	     }
+ </style>
+ 
+</head>
+<body>
+  <center>
+  <div class="sec4">
+	<h1><u>Timetable</u></h1>
+	
+  <table border="1"  style="background-color:yellow;">
+	
+	
+	<tr class="sec1"> 
+		<th>Monday</th>
+		<th>Tuesday</th>
+		<th>Wedneday</th>
+		<th>Thursday</th>
+		<th>Friday</th>
+	</tr>
+	
+	<tr >
+		<td rowspan=2>Maths</td>
+		<td>Geography</td>
+		<td rowspan=3>Literature</td>
+		<td>Maths </td>
+		<td>drama</td>
+	</tr>
+	
+	<tr >
+		<td>IT</td>
+		<td>English</td>
+		<td>Dancing</td>
+	</tr>
+	
+	<tr>
+		<td>Sinhala</td>
+		<td rowspan=2>Health</td>
+		<td rowspan=2>Music</td>
+		<td rowspan=2>Religion</td>
+	</tr>
+	
+	<tr>
+		<td>English</td>
+		<td>IT Lab</td>
+	</tr>
+	
+	<tr class="sec2">
+		<td colspan=5>Interval</td>
+	</tr>
+	<tr> 
+		<td>Religion</td>
+		<td>Maths</td>
+		<td>Health</td>
+		<td>Tamil</td>
+		<td>IT</td>
+	</tr>
+	
+	<tr> 
+		<td rowspan=2>History</td>
+		<td rowspan=3>Drama</td>
+		<td rowspan=2>Library</td>
+		<td>IT Lab</td>
+		<td>Tamil</td>
+	</tr>
+	<tr>
+		<td>Sinhala</td>
+		<td rowspan=2>Art</td>
+	</tr>
+	<tr>
+		<td>Maths</td>
+		<td>Maths</td>
+		<td>Science</td>
+	</tr>
+	
+	<tr class="sec3">
+		<td colspan=5>For more deatails:<a href="">www.schoolnet.com/</a></td>
+	</tr>
+	
+</table><br>
+</div>
+</center>
+
+</body>
+
+</html>

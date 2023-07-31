@@ -1,0 +1,126 @@
+<html>
+<head>
+  <style>
+	form{
+	   
+	   width:fit-content;
+	}
+	
+	
+</style>
+
+	
+</head>
+<body>
+
+
+<form>
+<fieldset>
+<table>
+<legend>Car Registration</legend>
+  <tr>
+  
+	<td>Owner Name</td>
+	<td><input placeholder="Owner name"></td>
+	
+  </tr>
+  
+  <tr>
+  
+	<td>Email</td>
+	<td><input type="Email" placeholder="Email"></td>
+	
+  </tr>
+  
+  <tr>
+  
+	<td>Phone Number</td>
+	<td><input placeholder="Phone Number" ></td>
+	
+  </tr>
+  
+  <tr>
+  
+	<td>country</td>
+	<td>
+		<select>
+		
+		 <option>Srilanka</option>
+		 <option>India</option>
+		 <option>Australia</option>
+		 
+		</select>
+    </td>
+	
+ </tr>
+ 
+ 
+ <tr>
+ 
+	<td>Car Model</td>
+	<td><input></td>
+ 
+ </tr>
+  
+  <tr>
+  
+	<td>Manufacture Year</td>
+	<td>
+		<select>
+		
+		 <option>2000</option>
+		 <option>2005</option>
+		 <option>2010</option>
+		 <option>2015</option>
+		 <option>2020</option>
+		
+		</select>
+	</td>
+  </tr>
+  
+  <tr>
+  
+	<td>Transmission</td>
+	<td>
+		<input type="radio" name="Transmission">Manual
+		<input type="radio" name="Transmission">Auto
+		
+	</td>
+  </tr>
+  
+  <tr>
+  
+    <td>Other</td>
+	<td><textarea></textarea></td>
+  
+ </tr>
+  
+ <tr>
+ 
+    <td colspan="2">
+		<input type="checkbox">I agree to the terms and conditions
+	</td>
+	
+</tr>
+
+<tr>
+
+  <td>
+   <button type="submit">Submit</button>
+  </td>
+  
+  <td>
+	<button type="reset">Reset</button>
+  </td>
+  
+</tr>
+
+
+
+</table>
+</fieldset>
+</form>
+
+</body>
+
+</html>

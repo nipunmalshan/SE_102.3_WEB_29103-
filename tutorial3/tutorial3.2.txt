@@ -1,0 +1,44 @@
+<html>
+<head>
+	<style>
+		.red{
+			color:red;
+		}
+	
+		.sec1{
+			color:blue;
+		}
+		
+		.sec2{
+			color:green;
+		
+		}
+</style>
+</head>
+<body>
+  <table border="1" >
+	<tr>
+		<td>America</td>
+		<td>Canada</td>
+		<td>Alaska</td>
+	</tr>
+	<tr>
+	  
+		<td colspan=2 class="red" >Mexico</td>
+		<td rowspan=2 >Jamaica</td>
+	</tr>
+	
+	<tr>
+	   
+		<td class="sec1" >Califonia</td>
+	    <td class="sec2">Brazil</td>
+	  
+	</tr>
+	
+	
+ </table>
+
+</body>
+
+</html>
+
